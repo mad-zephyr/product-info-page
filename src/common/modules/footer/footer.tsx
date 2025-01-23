@@ -1,7 +1,9 @@
 import { FC } from 'react';
 
-import styles from './styles.module.sass';
-
 export const Footer: FC = () => {
-  return <footer className={styles.footer}>Footer</footer>;
+  return (
+    <footer className="mx-auto min-h-96 w-[calc(100%-2rem)] max-w-[1440px] border-2 border-cyan-200">
+      Footer
+    </footer>
+  );
 };
